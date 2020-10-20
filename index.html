@@ -7,21 +7,27 @@
     <title>IEducate-Transforming Online Education </title>
 </head>
 <body>
-  <nav class="navbar background">
-      <ul class="nav-list">
+  <nav class="navbar background h-nav">
+      <ul class="nav-list v-class" >
             <div class="logo"><img src="logo.jfif" alt="logo"></div>
-            <li><a href="#home">Home</a></li> 
+            <li><a href="#">Home</a></li> 
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="rightNav">
+      <div class="rightNav v-class" >
           <input type="text" name="search" id="search">
           <button class="btn btn-sn">Search</button>
 
       </div>
+      <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
   </nav>
-  <section class="background firstsection">
+
+  <section class="background firstsection" id="home">
       <div class="box-main">
           <div class="firsthalf">
               <p class="text-big">The Future of Education is here</p>
@@ -36,7 +42,7 @@
           </div>
       </div>
   </section>
-  <section class="section">
+  <section class="section" id="about">
       <div class="content">
             <p class="sectionTag text-big">Education in India</p>
 
@@ -68,13 +74,13 @@
         " alt="image">
     </div>
 </section>
-<section class="contact">
+<section class="contact" id="contact">
     <h2 class="text-center">Contact</h2>
     <div class="form">
-        <input class=form-input type="text" name="name" id="name" placeholder="Enter Your Name">
-        <input class=form-input type="text" name="email" id="email" placeholder="Enter Your Email">
-        <input  class=form-input type="text" name="phone" id="phone" placeholder="Enter Your phone">
-        <textarea class=form-input name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+        <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your Email">
+        <input  class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your phone">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
         <button class="btn btn-dark">Submit</button>
     </div>
     
@@ -84,5 +90,6 @@
     <p class="textfooter"> Copyright &copy; 2027 - All rights reserved</p>
    
 </footer>
+<script src="js/resp.js"></script>
 </body>
 </html>
