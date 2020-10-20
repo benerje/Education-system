@@ -7,7 +7,7 @@
     width:20%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 
 }
 .logo img{
@@ -139,9 +139,7 @@
 .secLeft{
     flex-direction: row-reverse;
 }
-.sectionSubTag{
 
-}
 .thumbnail img{
     width: 250px;
     border: 2px sloid black;
